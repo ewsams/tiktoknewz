@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BrowserLayoutComponent } from './browser-layout.component';
+import {  HomepageLayoutComponent } from './homepage-layout.component';
 
-describe('BrowserLayoutComponent', () => {
-  let component: BrowserLayoutComponent;
-  let fixture: ComponentFixture<BrowserLayoutComponent>;
+describe(' HomepageLayoutComponent', () => {
+  let component:  HomepageLayoutComponent;
+  let fixture: ComponentFixture< HomepageLayoutComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BrowserLayoutComponent ]
+      declarations: [  HomepageLayoutComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BrowserLayoutComponent);
+    fixture = TestBed.createComponent( HomepageLayoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
