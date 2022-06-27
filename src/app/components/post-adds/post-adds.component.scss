@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  article {
+    padding: 1em;
+    border: solid 2px black;
+    font-weight: 700;
+    margin: 10px;
+    .title {
+      font-weight: bolder;
+      color: #e12bb6;
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.5em;
+      font-weight: 900;
+      color: #ac12d7;
+    }
+  }
+}

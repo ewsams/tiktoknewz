@@ -1,24 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomepageLayoutComponent } from './homepage-layout.component';
-import { NewsComponent } from 'src/app/components/news/news.component';
-import { PricingBoxComponent } from 'src/app/components/pricing-box/pricing-box.component';
-import { TrendingComponent } from 'src/app/components/trending/trending.component';
+import { HomePageRoutingModule } from './homepage-routing.module';
 
 
 
 @NgModule({
-  declarations: [
-    HomepageLayoutComponent,
-    TrendingComponent,
-    PricingBoxComponent,
-    NewsComponent,
-  ],
   imports: [
     CommonModule
   ],
   exports: [
-    HomepageLayoutComponent
+    HomePageRoutingModule
   ]
 })
 export class HomepageModule { }
