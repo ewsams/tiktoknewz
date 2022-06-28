@@ -3,8 +3,15 @@
   flex-direction: column;
   padding: 2em;
   article {
+    border-radius: 2em;
+    box-shadow: 24px 24px 80px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px 28px 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
     padding: 1em;
-    border: solid 2px black;
+    border: solid 2px #ac12d7;
     font-weight: 700;
     margin: 10px;
     .title {

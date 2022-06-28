@@ -1,3 +1,6 @@
+p {
+  font-size: 1em;
+}
 img {
   max-width: 80%;
   width: auto;
@@ -14,7 +17,6 @@ a {
 }
 .entry-title {
   grid-area: header;
-
   text-transform: uppercase;
   margin: 1em 0 0.5em;
   line-height: 1;
@@ -63,6 +65,10 @@ a {
 }
 @media (min-width: 50em) {
   .hentry {
+    border: solid 0.15em #ac12d7;
+    padding: 2em;
+    margin: 12px;
+    border-radius: 1.5em;
     grid-template-areas: "header header header header" "featimg featimg featimg featimg" "meta content content content" "footer footer footer footer";
   }
   .author,
@@ -76,5 +82,6 @@ a {
   .entry-title {
     font-size: 3m;
     margin-bottom: 0.7em;
+    color: #e12bb6;
   }
 }
